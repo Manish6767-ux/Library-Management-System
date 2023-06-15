@@ -22,8 +22,11 @@ public class AddBook extends JFrame implements ActionListener{
     JComboBox comboBox;
         
     public static void main(String[] args) {
-	new AddBook().setVisible(true);
+	
+	    System.out.println("books are adding");
+	    new AddBook().setVisible(true);
     }
+   
 
     public void random() {
         Random rd = new Random();
